@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Task2 Financial</title>
+<link rel="stylesheet" href="task2.css">
+
+</head>
+
+<body>
+
+	<script src="task2.js"></script>
+
+	<div id="input-container"> 
+
+	<p class="inputtext">Principal:</p><input type="text" placeholder="Enter principal" class="inputtext" id="principal1"><br>
+
+	<p class="inputtext">Annual intrest:</p><input type="text" placeholder="Enter intrest%" class="inputtext" id="intrest1"><br>
+
+	<p class="inputtext">Duration in months:</p><input type="text" placeholder="months" value="" class="inputtext" id="term"> <br>
+	<div id="or">or</div>
+
+	<p class="inputtext">Duration in years:</p><input type="text" placeholder="years" value="" class="inputtext" id="termy"><br>
+	<button  id="calculate" onclick="cal()" class="cal">Calculate</button>
+
+	<button  id="reset" onclick="reloadcontent()" class="cal">Reset</button>
+	
+	</div>
+
+	<div id="table-container">
+	
+	<div id="num" class="style1"><h4>Payment<br>No</h4></div>
+	
+	<div id="payment" class="style1"><h4>Payment<br>Amount</h4></div>
+	
+	<div id="principal" class="style1"><h4>Principal<br>Amount Paid</h4></div>
+	
+	<div id="intrest" class="style1"><h4>Intrest<br>Amount Paid</h4></div>
+	
+	<div id="remaining" class="style1"><h4>Remaining<br>Amount</h4></div>
+	
+	</div>
+
+</body>
+
+</html>
